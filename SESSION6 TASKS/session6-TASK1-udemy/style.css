@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: white ;
+    box-shadow: 1px 1px 15px;
+    display: flex;
+}
+.container{
+width: 80px;
+height: 10vh;
+/* border: solid 1px; */
+}
+.one{
+ flex-grow: 1;
+ /* object-fit: contain; */
+ display: flex;
+ object-fit: cover;
+
+}
+img{
+    width:100%;
+    height: 9vh;
+}
+.two { display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    /* align-content: center; */
+/* padding-top: 25px; */
+box-sizing: border-box ;
+}
+.two a{
+    text-decoration: none;
+    color: black;
+}
+.three{
+    flex-grow: 6;
+    /* object-fit: contain; */
+    /* align-content: center; */
+    display: flex;
+    
+    justify-content: left;
+    align-items: center;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    margin-left: 10%;
+    border: solid 2px ;
+    padding: 0 3.5rem 0 4.5rem;
+    box-sizing: border-box;
+    border-radius: 20px;
+    /* object-fit: contain; */
+}
+.searchSubmit {
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -25rem;
+    background: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box; 
+}
+.four{
+flex-grow: 1;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four a{
+    text-decoration: none;
+    color: black;
+}
+.five{
+flex-grow: 1;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.five a{
+    text-decoration: none;
+    color: black;
+}
+.six{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.six img{
+    width: 40px;
+    height: 40px;
+}
+ .seven{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.seven input{
+    width: 100px;
+    height: 7vh;
+font-size: x-large;
+}
+ .eight{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .eight input{
+    
+        width: 100px;
+        height: 7vh;
+    font-size: x-large;
+    background-color: black;
+    color: azure;
+    }
+    .eight input :hover{
+    
+        width: 100px;
+        height: 7vh;
+    font-size: x-large;
+    background-color: black;
+    color: azure;
+    }
+    .nine{
+    /* flex-grow: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nine button{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 75%;
+}
+.nine img{
+    width: 50%;
+    height: 63%;
+
+}
+.nine img:hover{
+    width: 85%;
+    height: 50%;
+
+}
+    

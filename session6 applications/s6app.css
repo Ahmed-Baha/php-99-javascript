@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+header
+{
+    display: flex;
+    justify-content: end;
+    border-color: rgb(106, 211, 211);
+}
+
+nav{
+
+    background-color: antiquewhite;
+    width: 750px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* padding-right: 100px; */
+}
+.container{
+    width: 100px;
+    height: 10vh;
+    background-color: blue;
+}
+.one{
+    background-color: red;
+    
+}
+.two
+{
+    background-color: green;  
+}
+    .three{
+        
+    background-color: yellow;
+}
+
+header nav div:nth-child(1){
+flex-grow: 1 ;}
+header nav div:nth-child(2){
+flex-grow: 1 ;}
+header nav div:nth-child(3){
+flex-shrink: 1 ;}

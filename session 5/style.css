@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container1{
+    margin: 40px auto;
+    width: 80%;
+    height: 600px;
+    background-color: black;
+display: flex;
+flex-direction: row;
+    align-items: start; 
+/* justify-content: end; */
+/* flex-wrap: wrap; */
+}
+div.container1 div:nth-child(2){
+    flex-shrink: 3;
+}
+
+/* .container1 :nth-child(7){
+    flex-grow: 1;
+    } */
+    /* div.container1 div:nth-child(7){
+        flex-grow: 1;
+        } */
+        
+        /* ///all the three above is the samee */
+        
+        .cont1{
+            width: 200px;
+            height: 200px;
+            
+        }
+        .container2{
+            margin: 40px auto;
+            width: 1200px;
+            height: 600px;
+            background-color: black;
+            display: flex;
+flex-direction: column;
+    align-items: center; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container2 :nth-child(7){
+    flex-grow: 1;
+}
+.cont2{
+    width: 200px;
+    height: 200px;
+    
+}
+.container3{
+    margin: 40px auto;
+    width: 1200px;
+    height: 600px;
+    background-color: black;
+display: flex;
+flex-direction: column;
+}
+.cont3{
+    width: 200px;
+    height: 100px;
+
+}
+.container4{
+    margin: 40px auto;
+    width: 1200px;
+    height: 1200px;
+    background-color: black;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.cont4{
+    width: 200px;
+    height: 100px;
+
+}
+.container5{
+    margin: 40px auto;
+    width: 1200px;
+    height: 1200px;
+    background-color: black;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+.cont5{
+    width: 200px;
+    height: 100px;
+
+}

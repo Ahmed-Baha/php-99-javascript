@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../coding"
+		},
+		{
+			"path": "../courses/steve course/codes"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "coding"
+	}
+}
